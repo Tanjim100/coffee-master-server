@@ -156,9 +156,9 @@ run().catch(console.dir);
 
 
 
-// app.listen(port, () => {
-//     console.log(`my server is running at http://localhost:${port}`);
-// });
+app.listen(port, () => {
+    console.log(`my server is running at http://localhost:${port}`);
+});
 
 
-module.exports = app;
+
